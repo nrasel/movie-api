@@ -26,10 +26,6 @@ const setMovieDetails=(id)=>{
     fetch(url)
     .then(res=>res.json())
     .then(data=>disPlayMovieDetails(data))
-
-    
-
-
 }
 
 const disPlayMovieDetails=(movie)=>{
